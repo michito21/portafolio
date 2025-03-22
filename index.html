@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Sección de descripción (izquierda) -->
+        <div class="description">
+            <h1>Sobre Mí</h1>
+            <p>
+                ¡Hola! Soy [Tu Nombre], un apasionado por [tu profesión o interés]. 
+                Me encanta aprender cosas nuevas y trabajar en proyectos desafiantes. 
+                Aquí puedes conocer un poco más sobre mí y mis habilidades.
+            </p>
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>Habilidad 1</li>
+                <li>Habilidad 2</li>
+                <li>Habilidad 3</li>
+            </ul>
+        </div>
+
+        <!-- Sección de imágenes (derecha) -->
+        <div class="image-slider">
+            <img src="../img/fotos/foto1.jpeg" alt="Foto 1" class="slider-image active">
+            <img src="../img/fotos/foto2.png" alt="Foto 2" class="slider-image">
+            <img src="../img/fotos/foto3.jpeg" alt="Foto 3" class="slider-image">
+            <button class="slider-button prev" onclick="prevImage()">&#10094;</button>
+            <button class="slider-button next" onclick="nextImage()">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Sección de portafolio -->
+    <div class="portfolio">
+        <h2>Portafolio</h2>
+        <p>Aquí puedes ver algunos de mis proyectos más recientes.</p>
+    </div>
+
+    <!-- Sección de programas -->
+    <div class="programs">
+        <h2>Programas que uso</h2>
+        <div class="programs-container">
+            <div class="program">
+                <img src="../img/programas/illustrator.png" alt="Logo 1">
+                <p>illustrator</p>
+            </div>
+            <div class="program">
+                <img src="../img/programas/indesing.png" alt="Logo 2">
+                <p>indesing</p>
+            </div>
+            <div class="program">
+                <img src="../img/programas/ps.png" alt="Logo 3">
+                <p>photoshop</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
